@@ -1,0 +1,10 @@
+{
+  "name": "ORL-simple-swipe",
+  "version": "1.0.0",
+  "description": "Simple Swipe",
+  "dependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest"
+  }
+}

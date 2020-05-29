@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Swipe</title>
+</head>
+<body style="height:100%">
+
+<div style="display:flex;align-items:center;justify-content:center;height:100%">
+  <h1>Swipe me!</h1>
+</div>
+
+<script src="simple-swipe.babel.js"></script>
+<script>
+  document.body.addEventListener('swiped-up', () => alert('swiped-up'));
+  document.body.addEventListener('swiped-down', () => alert('swiped-down'));
+  document.body.addEventListener('swiped-left', () => alert('swiped-left'));
+  document.body.addEventListener('swiped-right', () => alert('swiped-right'));
+</script>
+
+</body>
+</html>
